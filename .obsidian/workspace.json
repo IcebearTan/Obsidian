@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文献阅读/徐升组电路解读.md",
+                "file": "工作Idea/职规赛备赛.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "徐升组电路解读"
+              "title": "职规赛备赛"
             }
           }
         ]
@@ -191,16 +191,29 @@
       "bases:新建数据库": false
     }
   },
-  "active": "b7c15845f9290599",
+  "active": "989e41220b1009b4",
   "lastOpenFiles": [
+    "工作Idea/周老师提出两个问题.md",
+    "文献阅读/Liangke Wu 等 Recent advances in the preparation of PVDF-based piezoelectric materials.md",
+    "学习笔记/Qmake和Cmake.md",
+    "文献阅读/A fully integrated wearable ultrasound system to monitor deep tissues in moving subjects.md",
+    "作业/针头形态与皮肤建模研究报告.md",
+    "作业/第一部分内容整理.md",
+    "文献阅读/徐升组电路解读.md",
+    "学习笔记/超声探头调研.md",
+    "工作Idea/职规赛备赛.md",
+    "学习笔记/激光雕刻蛇形导线技术.md",
+    "作业/小型智能电动微注射器设计及皮肤穿刺仿真(1).md",
+    "assets/Pasted image 20260517191807.png",
+    "assets/Pasted image 20260517191549.png",
+    "assets/Pasted image 20260517191509.png",
+    "assets/Pasted image 20260517190736.png",
+    "assets/Pasted image 20260517190732.png",
+    "assets/Pasted image 20260517190715.png",
+    "assets/Pasted image 20260517171033.png",
     "assets/image_892185101605705.png",
     "assets/image_768008262208286.png",
     "assets/image_479791211052613.png",
-    "assets/image_038794452535088.png",
-    "assets/Pasted image 20260511154505.png",
-    "assets/Pasted image 20260429144546.png",
-    "assets/Pasted image 20260429144536.png",
-    "assets/Pasted image 20260518114707.png",
     "assets",
     "文献阅读/Sheng Xu 可穿戴式血压超声传感器的临床验证.md",
     "学习笔记",
@@ -215,12 +228,8 @@
     "知识积累",
     "未命名.canvas",
     "文献阅读",
-    "image_479791211052613.png",
-    "image_038794452535088.png",
-    "Pasted image 20260429144546.png",
     "文献阅读/Cauwenberghs 用于连续监测脑活动及汗液中乳酸水平的耳内集成传感器阵列.md",
     "文献阅读/Dagdeviren 用于深部脑活动刺激的植入式压电超声刺激器.md",
-    "文献阅读/徐升组电路解读.md",
     "知识积累/T检验和PPO.md"
   ]
 }
