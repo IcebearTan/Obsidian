@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "0d9e4922b7bfb381",
+    "type": "split",
+    "children": [
+      {
+        "id": "e72121f12ed5ee15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7c15845f9290599",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "文献阅读/徐升组电路解读.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "徐升组电路解读"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e3b97318425aee1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2350e0eb4dc3189d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "989e41220b1009b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f375710a167e3b7e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "acfcf4ad0f51ed57",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aecaf5f2b5c845e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3de59cd00fcc249f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a48981f3588a1f21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "cbd0145db221cac9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "224debcc998f5d8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c561978d596fe112",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d61490d11c79779e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "0a7a1a64775d5ab8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "b7c15845f9290599",
+  "lastOpenFiles": [
+    "assets/image_892185101605705.png",
+    "assets/image_768008262208286.png",
+    "assets/image_479791211052613.png",
+    "assets/image_038794452535088.png",
+    "assets/Pasted image 20260511154505.png",
+    "assets/Pasted image 20260429144546.png",
+    "assets/Pasted image 20260429144536.png",
+    "assets/Pasted image 20260518114707.png",
+    "assets",
+    "文献阅读/Sheng Xu 可穿戴式血压超声传感器的临床验证.md",
+    "学习笔记",
+    "作业",
+    "工作Idea/第二周讲义补充.md",
+    "作业/小型智能电动微注射器设计及皮肤穿刺仿真.md",
+    "欢迎.md",
+    "未命名.base",
+    "知识积累/谐振频率.md",
+    "工作Idea",
+    "知识积累/答辩指导意见.md",
+    "知识积累",
+    "未命名.canvas",
+    "文献阅读",
+    "image_479791211052613.png",
+    "image_038794452535088.png",
+    "Pasted image 20260429144546.png",
+    "文献阅读/Cauwenberghs 用于连续监测脑活动及汗液中乳酸水平的耳内集成传感器阵列.md",
+    "文献阅读/Dagdeviren 用于深部脑活动刺激的植入式压电超声刺激器.md",
+    "文献阅读/徐升组电路解读.md",
+    "知识积累/T检验和PPO.md"
+  ]
+}
