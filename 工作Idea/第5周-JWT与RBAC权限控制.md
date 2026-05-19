@@ -879,19 +879,19 @@ router.beforeEach((to, from, next) => {
 
 ### 11.1 核心知识点回顾
 
-| 层级 | 技术 | 在本项目中的位置 |
-|------|------|----------------|
-| JWT 配置 | `JWT_SECRET_KEY`, 7天过期 | [config.py](../../Education_platform/BME_platform_flask/config.py#L25-L26) |
-| JWT 签发 | `create_access_token(identity=email)` | [auth.py](../../Education_platform/BME_platform_flask/blueprints/auth.py#L121) |
-| JWT 验证 | `@jwt_required()` + `get_jwt_identity()` | 所有受保护接口 |
-| RBAC 模型 | `PermissionModel` + `UserPermissionModel` | [models.py](../../Education_platform/BME_platform_flask/models.py#L697-L715) |
-| 权限检查 | `@check_permission('xxx')` | [blueprints/\_\_init\_\_.py](../../Education_platform/BME_platform_flask/blueprints/__init__.py#L175-L218) |
-| 多权限检查 | `@check_multiple_permissions([...])` | [blueprints/\_\_init\_\_.py](../../Education_platform/BME_platform_flask/blueprints/__init__.py#L221-L282) |
-| 前端 Token 存储 | `localStorage.setItem('token', ...)` | [LoginComponent.vue](../../Education_platform/BME_frontend/src/components/Auth/LoginComponent.vue#L155) |
-| 前端 Token 携带 | Axios 请求拦截器 `Authorization: Bearer` | [api.js](../../Education_platform/BME_frontend/src/api.js#L15-L23) |
-| 前端 Token 过期 | Axios 响应拦截器 401 处理 | [api.js](../../Education_platform/BME_frontend/src/api.js#L25-L47) |
-| 前端路由守卫 | `router.beforeEach` + `meta.requiresAuth` | [router.js](../../Education_platform/BME_frontend/src/router.js#L214-L226) |
-| 审计日志 | `@audit_log` 装饰器 | [blueprints/\_\_init\_\_.py](../../Education_platform/BME_platform_flask/blueprints/__init__.py#L11-L118) |
+| 层级          | 技术                                        | 在本项目中的位置                                                                                                   |
+| ----------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| JWT 配置      | `JWT_SECRET_KEY`, 7天过期                    | [config.py](../../Education_platform/BME_platform_flask/config.py#L25-L26)                                 |
+| JWT 签发      | `create_access_token(identity=email)`     | [auth.py](../../Education_platform/BME_platform_flask/blueprints/auth.py#L121)                             |
+| JWT 验证      | `@jwt_required()` + `get_jwt_identity()`  | 所有受保护接口                                                                                                    |
+| RBAC 模型     | `PermissionModel` + `UserPermissionModel` | [models.py](../../Education_platform/BME_platform_flask/models.py#L697-L715)                               |
+| 权限检查        | `@check_permission('xxx')`                | [blueprints/\_\_init\_\_.py](../../Education_platform/BME_platform_flask/blueprints/__init__.py#L175-L218) |
+| 多权限检查       | `@check_multiple_permissions([...])`      | [blueprints/\_\_init\_\_.py](../../Education_platform/BME_platform_flask/blueprints/__init__.py#L221-L282) |
+| 前端 Token 存储 | `localStorage.setItem('token', ...)`      | [LoginComponent.vue](../../Education_platform/BME_frontend/src/components/Auth/LoginComponent.vue#L155)    |
+| 前端 Token 携带 | Axios 请求拦截器 `Authorization: Bearer`       | [api.js](../../Education_platform/BME_frontend/src/api.js#L15-L23)                                         |
+| 前端 Token 过期 | Axios 响应拦截器 401 处理                        | [api.js](../../Education_platform/BME_frontend/src/api.js#L25-L47)                                         |
+| 前端路由守卫      | `router.beforeEach` + `meta.requiresAuth` | [router.js](../../Education_platform/BME_frontend/src/router.js#L214-L226)                                 |
+| 审计日志        | `@audit_log` 装饰器                          | [blueprints/\_\_init\_\_.py](../../Education_platform/BME_platform_flask/blueprints/__init__.py#L11-L118)  |
 
 ### 11.2 设计精华点
 
