@@ -252,13 +252,13 @@ user_mode = db.Column(db.String(20), default='user')  # 'user' 或 'admin'
 
 从权限管理 API 的实际使用中，可以看到系统定义了这些权限：
 
-| 权限名称 | 用途 | 使用位置 |
-|----------|------|---------|
-| `system_management` | 系统管理（分配权限、查看审计日志） | `/permissions/assign`, `/auth/audit_records` |
-| `user_management` | 用户管理（查看用户列表、管理小组） | `/permissions/user/<id>`, `/user/user_list` |
-| `course_management` | 课程管理（创建/编辑/删除课程） | `/course/edit`, `/course/delete` |
-| `article_management` | 文章管理（发布/编辑/删除文章） | `/article/edit`, `/article/delete` |
-| `medal_management` | 勋章管理（创建/编辑勋章） | `/medal/medal_create` |
+| 权限名称                 | 用途                | 使用位置                                         |
+| -------------------- | ----------------- | -------------------------------------------- |
+| `system_management`  | 系统管理（分配权限、查看审计日志） | `/permissions/assign`, `/auth/audit_records` |
+| `user_management`    | 用户管理（查看用户列表、管理小组） | `/permissions/user/<id>`, `/user/user_list`  |
+| `course_management`  | 课程管理（创建/编辑/删除课程）  | `/course/edit`, `/course/delete`             |
+| `article_management` | 文章管理（发布/编辑/删除文章）  | `/article/edit`, `/article/delete`           |
+| `medal_management`   | 勋章管理（创建/编辑勋章）     | `/medal/medal_create`                        |
 
 ---
 
