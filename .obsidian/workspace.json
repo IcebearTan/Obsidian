@@ -11,10 +11,14 @@
             "id": "2a1f3a0929a0a968",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "颅内压超声研究调研方向.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "颅内压超声研究调研方向"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "aecaf5f2b5c845e1",
@@ -191,6 +194,9 @@
   },
   "active": "2a1f3a0929a0a968",
   "lastOpenFiles": [
+    "颅内压超声研究调研方向.md",
+    "未命名.base",
+    "颅内压超声研究",
     "学习笔记/超声探头调研.md",
     "医用电子仪器笔记.md",
     "assets/Pasted image 20260520203235.png",
@@ -225,7 +231,6 @@
     "工作Idea/第二周讲义补充.md",
     "作业/小型智能电动微注射器设计及皮肤穿刺仿真.md",
     "欢迎.md",
-    "未命名.base",
     "知识积累/谐振频率.md",
     "工作Idea",
     "知识积累/答辩指导意见.md",
